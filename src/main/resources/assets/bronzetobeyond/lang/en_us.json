@@ -1,13 +1,14 @@
 {
-  "itemGroup.bronzetobeyond": "Example Mod Tab",
-  "block.bronzetobeyond.example_block": "Example Block",
-  "item.bronzetobeyond.example_item": "Example Item",
+  "itemGroup.bronzetobeyond": "Bronze to Beyond",
 
-  "bronzetobeyond.configuration.title": "Bronze to Beyond Configs",
-  "bronzetobeyond.configuration.section.bronzetobeyond.common.toml": "Bronze to Beyond Configs",
-  "bronzetobeyond.configuration.section.bronzetobeyond.common.toml.title": "Bronze to Beyond Configs",
-  "bronzetobeyond.configuration.items": "Item List",
-  "bronzetobeyond.configuration.logDirtBlock": "Log Dirt Block",
-  "bronzetobeyond.configuration.magicNumberIntroduction": "Magic Number Text",
-  "bronzetobeyond.configuration.magicNumber": "Magic Number"
+  "block.bronzetobeyond.tin_ore": "Tin Ore",
+  "block.bronzetobeyond.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.bronzetobeyond.nether_tin_ore": "Nether Tin Ore",
+  "block.bronzetobeyond.end_tin_ore": "End Tin Ore",
+
+  "block.bronzetobeyond.block_of_raw_tin": "Block of Raw Tin",
+  "block.bronzetobeyond.block_of_tin": "Block of Tin",
+
+  "item.bronzetobeyound.raw_tin": "Raw Tin",
+  "item.bronzetobeyound.tin_ingot": "Tin Ingot"
 }
