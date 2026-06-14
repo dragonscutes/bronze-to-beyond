@@ -1,5 +1,6 @@
 package com.github.dragonscutes.bronzetobeyond;
 
+import com.github.dragonscutes.bronzetobeyond.block.ModBlocks;
 import com.github.dragonscutes.bronzetobeyond.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -15,5 +16,12 @@ public class ModCreativeTabs {
             .icon(() -> ModItems.RAW_TIN.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.RAW_TIN.get());
+                output.accept(ModItems.TIN_INGOT.get());
+                output.accept(ModBlocks.BLOCK_OF_RAW_TIN.get());
+                output.accept(ModBlocks.BLOCK_OF_TIN.get());
+                output.accept(ModBlocks.TIN_ORE_BLOCK.get());
+                output.accept(ModBlocks.DEEPSLATE_TIN_ORE_BLOCK.get());
+                output.accept(ModBlocks.NETHER_TIN_ORE_BLOCK.get());
+                output.accept(ModBlocks.END_TIN_ORE_BLOCK.get());
             }).build());
 }

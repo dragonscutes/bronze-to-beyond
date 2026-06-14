@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bronzetobeyond:block_of_raw_tin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "bronzetobeyond:raw_tin"
+  }
+}
